@@ -22,20 +22,22 @@ games/voidfall/
   news.json                      the feed the launcher renders
   news/0.1.0.md                  patch notes, in markdown
 tools/validate_documents.py      the launcher's rules, runnable in CI
+tools/set_owner.py               fills the account name into every URL, here and in the launcher
 ```
 
 ## Before the first release
 
-Every document here still names `KYVORA_OWNER`. Replace it with the GitHub account that owns this
-repository, in this file and in every JSON document:
+Every URL here names `KYVORA_OWNER`. Point them at the account that owns this repository, and the
+launcher's bundled catalog with them — the two have to agree, or the launcher offers a game that can
+never install:
 
 ```bash
-grep -rl KYVORA_OWNER . | xargs sed -i 's/KYVORA_OWNER/your-github-name/g'
+python3 tools/set_owner.py your-github-name --launcher ../KyvoraLauncher
 python3 tools/validate_documents.py
 ```
 
-The same name has to be filled into `data/launcher.json` and `data/games/voidfall.json` in the launcher
-repository, which is the only place the launcher names its host.
+It only substitutes inside URLs, so the constants in `validate_documents.py` and `HostConfig.gd` that
+exist to *detect* the placeholder keep working, and running it twice is harmless.
 
 The channel pointers in git are seeded, not real: they name manifests for `voidfall-v0.1.0` and
 `launcher-v0.1.0`, which do not exist until something publishes them. `tools/release/publish.py` in the
