@@ -2,11 +2,12 @@
   "schema": "kyvora.channel/1",
   "game_id": "voidfall",
   "channel": "stable",
-  "version": "0.1.0",
-  "published_at": "2026-09-13T06:20:26Z",
-  "notes_url": "https://raw.githubusercontent.com/kyvoracloud-klyne/kyvora-releases/main/games/voidfall/news/0.1.0.md",
+  "version": "0.1.1",
+  "published_at": "2026-09-13T07:46:42Z",
+  "notes_url": "https://raw.githubusercontent.com/kyvoracloud-klyne/kyvora-releases/main/games/voidfall/news/0.1.1.md",
   "manifests": {
-    "windows": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/voidfall-v0.1.0/manifest-windows.json",
-    "linux": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/voidfall-v0.1.0/manifest-linux.json"
-  }
+    "windows": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/voidfall-v0.1.1/manifest-windows.json",
+    "linux": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/voidfall-v0.1.1/manifest-linux.json"
+  },
+  "minimum_launcher_version": "0.1.1"
 }
