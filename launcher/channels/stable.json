@@ -3,7 +3,7 @@
   "game_id": "launcher",
   "channel": "stable",
   "version": "0.1.0",
-  "published_at": "2026-09-12T00:00:00Z",
+  "published_at": "2026-09-13T06:22:11Z",
   "manifests": {
     "windows": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/launcher-v0.1.0/manifest-windows.json",
     "linux": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/launcher-v0.1.0/manifest-linux.json"
