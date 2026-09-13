@@ -3,9 +3,8 @@
   "game_id": "voidfall",
   "channel": "stable",
   "version": "0.1.0",
-  "published_at": "2026-09-12T00:00:00Z",
+  "published_at": "2026-09-13T06:20:26Z",
   "notes_url": "https://raw.githubusercontent.com/kyvoracloud-klyne/kyvora-releases/main/games/voidfall/news/0.1.0.md",
-  "minimum_launcher_version": "0.1.0",
   "manifests": {
     "windows": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/voidfall-v0.1.0/manifest-windows.json",
     "linux": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/voidfall-v0.1.0/manifest-linux.json"
