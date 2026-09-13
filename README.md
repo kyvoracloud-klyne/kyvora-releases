@@ -1,7 +1,33 @@
 # Kyvora releases
 
-The update host for the [Kyvora Games Launcher](https://github.com/kyvoracloud-klyne/KyvoraLauncher). Public,
-because the launcher fetches from it with no credentials.
+The update host for the Kyvora Games Launcher. Public, because the launcher fetches from it with no
+credentials.
+
+## Playing (start here)
+
+Download the launcher, run it, press Install. It fetches the game and keeps it patched.
+
+| Platform | Download |
+|---|---|
+| Windows | [KyvoraLauncher-0.1.0-windows.exe](https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/launcher-v0.1.0/KyvoraLauncher-0.1.0-windows.exe) |
+| Linux | [KyvoraLauncher-0.1.0-linux.tar.gz](https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/launcher-v0.1.0/KyvoraLauncher-0.1.0-linux.tar.gz) |
+
+- **Windows will warn you on first run**, because the build is not code signed. Choose *More info* then
+  *Run anyway*. A signing certificate is on the list; it is not free and it is not a blocker for a
+  playtest.
+- **On Linux**, extract the archive and run `./KyvoraLauncher.x86_64`. The tarball keeps the execute bit,
+  so there is no `chmod` step.
+- The game installs to `%LOCALAPPDATA%\Kyvora\Games\voidfall` or `~/.local/share/Kyvora/Games/voidfall`,
+  changeable in the launcher's settings. Saves live in a `saves/` folder there and are never touched by
+  an update.
+- Updates download **only the parts that changed**, so a patch is usually a few hundred kilobytes. The
+  launcher updates itself the same way.
+- Something broken? Open an [issue](https://github.com/kyvoracloud-klyne/kyvora-releases/issues) and say
+  which version the launcher shows — that number is what identifies your build.
+
+---
+
+The rest of this file is about how the host works.
 
 Two kinds of thing live here, and the split is deliberate:
 
