@@ -1,0 +1,15 @@
+{
+  "schema": "kyvora.news/1",
+  "game_id": "voidfall",
+  "entries": [
+    {
+      "id": "voidfall-0-1-0",
+      "title": "Project Voidfall 0.1.0",
+      "date": "2026-09-12",
+      "kind": "patch_notes",
+      "version": "0.1.0",
+      "summary": "The first build served through the launcher.",
+      "body_url": "https://raw.githubusercontent.com/KYVORA_OWNER/kyvora-releases/main/games/voidfall/news/0.1.0.md"
+    }
+  ]
+}

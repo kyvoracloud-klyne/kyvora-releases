@@ -1,0 +1,28 @@
+{
+  "schema": "kyvora.catalog/1",
+  "games": [
+    {
+      "schema": "kyvora.game/1",
+      "id": "voidfall",
+      "title": "Project Voidfall",
+      "tagline": "Cooperative roguelite extraction dungeon crawler",
+      "install_dir_name": "voidfall",
+      "default_channel": "stable",
+      "channels": {
+        "stable": "https://raw.githubusercontent.com/KYVORA_OWNER/kyvora-releases/main/games/voidfall/channels/stable.json",
+        "beta": "https://raw.githubusercontent.com/KYVORA_OWNER/kyvora-releases/main/games/voidfall/channels/beta.json"
+      },
+      "news": "https://raw.githubusercontent.com/KYVORA_OWNER/kyvora-releases/main/games/voidfall/news.json",
+      "executables": {
+        "windows": "Voidfall.exe",
+        "linux": "Voidfall.x86_64"
+      },
+      "launch_args": [],
+      "art": {
+        "hero": "res://assets/games/voidfall/hero.svg",
+        "icon": "res://assets/games/voidfall/icon.svg"
+      },
+      "accent_color": "#2de1c2"
+    }
+  ]
+}

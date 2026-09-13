@@ -1,0 +1,21 @@
+name: validate
+
+# The launcher rejects a malformed document and shows the player an error. That is
+# the right behaviour at runtime and a terrible way to find out, so the same rules
+# run here: a hand-edited news.json fails a pull request instead of a launcher.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  documents:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate channel, catalog, news and manifest documents
+        run: python3 tools/validate_documents.py
