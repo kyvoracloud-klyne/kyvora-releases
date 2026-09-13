@@ -1,6 +1,6 @@
 # Kyvora releases
 
-The update host for the [Kyvora Games Launcher](https://github.com/KYVORA_OWNER/KyvoraLauncher). Public,
+The update host for the [Kyvora Games Launcher](https://github.com/kyvoracloud-klyne/KyvoraLauncher). Public,
 because the launcher fetches from it with no credentials.
 
 Two kinds of thing live here, and the split is deliberate:

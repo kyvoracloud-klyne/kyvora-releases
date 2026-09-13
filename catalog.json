@@ -9,10 +9,10 @@
       "install_dir_name": "voidfall",
       "default_channel": "stable",
       "channels": {
-        "stable": "https://raw.githubusercontent.com/KYVORA_OWNER/kyvora-releases/main/games/voidfall/channels/stable.json",
-        "beta": "https://raw.githubusercontent.com/KYVORA_OWNER/kyvora-releases/main/games/voidfall/channels/beta.json"
+        "stable": "https://raw.githubusercontent.com/kyvoracloud-klyne/kyvora-releases/main/games/voidfall/channels/stable.json",
+        "beta": "https://raw.githubusercontent.com/kyvoracloud-klyne/kyvora-releases/main/games/voidfall/channels/beta.json"
       },
-      "news": "https://raw.githubusercontent.com/KYVORA_OWNER/kyvora-releases/main/games/voidfall/news.json",
+      "news": "https://raw.githubusercontent.com/kyvoracloud-klyne/kyvora-releases/main/games/voidfall/news.json",
       "executables": {
         "windows": "Voidfall.exe",
         "linux": "Voidfall.x86_64"
