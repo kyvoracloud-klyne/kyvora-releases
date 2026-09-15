@@ -1,0 +1,37 @@
+{
+  "schema": "kyvora.manifest/1",
+  "game_id": "voidfall",
+  "version": "0.1.5",
+  "platform": "linux",
+  "total_size": 78771320,
+  "entries": [
+    {
+      "path": "Voidfall.pck",
+      "size": 1370740,
+      "sha256": "282a9a33862a7dcf6546721e877785b55cba420a72a46fb415f82fb4fdf9a05f",
+      "url": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/voidfall-v0.1.5/282a9a33862a7dcf6546721e877785b55cba420a72a46fb415f82fb4fdf9a05f.bin",
+      "executable": false
+    },
+    {
+      "path": "Voidfall.x86_64",
+      "size": 73519416,
+      "sha256": "d9f79ab89b5ae369aeed11c6052d402e8218cd503bf85b4a235f9c30c46a7c63",
+      "url": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/voidfall-v0.1.0/d9f79ab89b5ae369aeed11c6052d402e8218cd503bf85b4a235f9c30c46a7c63.bin",
+      "executable": true
+    },
+    {
+      "path": "assets.pck",
+      "size": 3715264,
+      "sha256": "7fd908fdab162c9ebbc53fecde0ef55dd4d72cc0c1656f7d706918702c92ecde",
+      "url": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/voidfall-v0.1.5/7fd908fdab162c9ebbc53fecde0ef55dd4d72cc0c1656f7d706918702c92ecde.bin",
+      "executable": false
+    },
+    {
+      "path": "data.pck",
+      "size": 165900,
+      "sha256": "1b8443696f83944e85d98370ae1834f4ac390f2e8ad2461badab215667133b20",
+      "url": "https://github.com/kyvoracloud-klyne/kyvora-releases/releases/download/voidfall-v0.1.5/1b8443696f83944e85d98370ae1834f4ac390f2e8ad2461badab215667133b20.bin",
+      "executable": false
+    }
+  ]
+}
