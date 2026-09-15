@@ -3,6 +3,15 @@
   "game_id": "voidfall",
   "entries": [
     {
+      "id": "voidfall-0-1-4",
+      "title": "Project Voidfall 0.1.4",
+      "date": "2026-09-15",
+      "kind": "patch_notes",
+      "version": "0.1.4",
+      "summary": "Improved inventory system",
+      "body_url": "https://raw.githubusercontent.com/kyvoracloud-klyne/kyvora-releases/main/games/voidfall/news/0.1.4.md"
+    },
+    {
       "id": "voidfall-0-1-3",
       "title": "Project Voidfall 0.1.3",
       "date": "2026-09-14",
